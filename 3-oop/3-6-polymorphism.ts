@@ -15,7 +15,7 @@
     interface CoffeeMaker{
         makeCoffee(shots:number):CoffeeCup;
     }
-    class CoffeeMachine implements CoffeeMaker{
+    class Coffee Machine implements CoffeeMaker{
         private static BEANS_GRAM_PER_SHOT:number=7; //외부에서 보여지지않ㅇ므
         private coffeeBeans:number=0;
 
